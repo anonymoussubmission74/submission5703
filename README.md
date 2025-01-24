@@ -1,3 +1,4 @@
 # GS-Bias: Global-Spatial Bias Learner for Single-Image Test-Time Adaptation of Vision-Language Models
+
 In this work, we propose a novel Global-Spatial Bias Learner (GS-Bias) for test-time adaptation of vision-language models. Instead of modifying CLIP’s textual prompts or visual features, our GS-Bias introduces two learnable biases directly at the output logits of CLIP. Particularly, the global bias captures the overall semantic features of a test image by aligning augmented views for consistency, while the spatial bias focuses on ensuring semantic coherence among regions within the spatial visual representation of the image. Moreover, our optimization operates solely at the CLIP output level, making the approach very lightweight. Extensive experiments demonstrate that GS-Bias achieves superior performance with significantly lower memory consumption and faster inference speed.
 
